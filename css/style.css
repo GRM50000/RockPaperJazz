@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-image: url('https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png');
+    background-size: 200px;
+
+}
+
+.choices {
+    color: red;
+    text-shadow: 2px 2px 2px white;
+    font-size: 25px;
+}
+
+#bonk {
+    position: relative;
+    top: 3rem;
+    margin: 10vh 10vw;
+    border: 15px solid blue;
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 2rem 2rem 0rem 2rem;
+    text-shadow: 2px 2px 2px white;
+}
+
+#blurb {
+    padding: 1em;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 2em;
+    font-variant: small-caps;
+    background-color: yellow;
+    border: 10px solid black;
+    color: black;
+    font-weight: 800;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h2 {
+    display: inline-flex;
+    background-color: yellow;
+}
+
+#h2 {
+    padding: 1em;
+}
+
+button {
+    cursor: pointer;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1.5em;
+    background-color: green;
+    color: white;
+    border: 10px blue solid;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.centered {
+    text-align: center;
+}
+
+hgroup {
+
+    margin: auto;
+
+}
