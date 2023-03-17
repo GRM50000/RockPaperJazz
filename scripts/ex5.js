@@ -48,20 +48,20 @@ if (userChoice == computerChoice) {
 
 } else if (userChoice == 'rock') {
     if (computerChoice == 'jazz') {
-        alert('Rock Smashes Jazz so you WIN!');
+        alert('Rock Smashes' + computerChoice + 'so you WIN!');
     } else {
-        alert('Blues Covers Rock, so you Lose.');
+        alert(computerChoice + 'Covers' + userChoice + 'so you Lose.');
     }
 } else if (userChoice == 'blues') {
     if (computerChoice == 'rock') {
-        alert('Blues Covers Rock so you WIN!');
+        alert(userChoice + 'Covers' + computerChoice + 'so you WIN!');
     } else {
-        alert('Jazz Cuts Blues, so you Lose.');
+        alert(computerChoice + 'Cuts' + userChoice, +'so you Lose.');
     }
 } else if (userChoice == 'jazz') {
     if (computerChoice == 'blues') {
-        alert('Jazz Cuts Blues so you WIN!')
+        alert(userChoice + 'Cuts' + computerChoice + 'so you WIN!')
     } else {
-        alert('Rock Smashes Jazz, so you Lose.');
+        alert(computerChoice + 'Smashes' + userChoice + 'so you Lose.');
     }
 }
