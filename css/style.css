@@ -17,6 +17,7 @@ body {
 
 #jazz {
     border-bottom: none;
+    margin-bottom: .5em;
 }
 
 #bonk {
@@ -32,6 +33,8 @@ body {
 
 #blurb {
     padding: 1em;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 h1 {
