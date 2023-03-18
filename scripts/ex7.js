@@ -23,7 +23,7 @@ console.log(userChoice);
 
 if (!(userChoice == 'rock' || userChoice == 'blues' || userChoice == 'jazz')) {
     alert('Only Choose Rock, Blues, or Jazz, Try Again');
-    window.location.replace('https://GRM50000.github.io/RockPaperJazz');
+    window.location.reload();
 }
 
 //computer's choice

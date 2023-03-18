@@ -9,6 +9,14 @@ body {
     color: red;
     text-shadow: 2px 2px 2px white;
     font-size: 25px;
+    font-family: 'Rock Salt', cursive;
+    padding: .5em;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid black;
+}
+
+#jazz {
+    border-bottom: none;
 }
 
 #bonk {
@@ -19,7 +27,7 @@ body {
     background-color: #ddd;
     border-radius: 20px;
     padding: 2rem 2rem 0rem 2rem;
-    text-shadow: 2px 2px 2px white;
+
 }
 
 #blurb {
@@ -28,11 +36,13 @@ body {
 
 h1 {
     display: inline-block;
+    font-family: 'Freckle Face', cursive;
     font-size: 2em;
+    text-shadow: 1px 1px 1px black;
     font-variant: small-caps;
-    background-color: yellow;
+    background-color: green;
     border: 10px solid black;
-    color: black;
+    color: yellow;
     font-weight: 800;
     padding: 1rem;
     border-radius: 10px;
@@ -41,6 +51,7 @@ h1 {
 h2 {
     display: inline-flex;
     background-color: yellow;
+
 }
 
 #h2 {
@@ -50,7 +61,7 @@ h2 {
 button {
     cursor: pointer;
     padding: .5em;
-    margin: .5em;
+    margin: .1em auto;
     font-size: 1.5em;
     background-color: green;
     color: white;
