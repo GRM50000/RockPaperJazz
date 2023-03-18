@@ -23,7 +23,7 @@ body {
 #bonk {
     position: relative;
     top: 3rem;
-    margin: 10vh 10vw;
+    margin: 5vh 5vw;
     border: 10px solid blue;
     background-color: #ddd;
     border-radius: 20px;
