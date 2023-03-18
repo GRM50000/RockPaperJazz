@@ -23,17 +23,17 @@ body {
 #bonk {
     position: relative;
     top: 3rem;
-    margin: 10vh 20vw;
-    border: 15px solid blue;
+    margin: 10vh 10vw;
+    border: 10px solid blue;
     background-color: #ddd;
     border-radius: 20px;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 
 }
 
 #blurb {
     padding: 1em;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 600;
 }
 
