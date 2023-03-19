@@ -65,3 +65,20 @@ if (userChoice == computerChoice) {
         alert('Rock Smashes Jazz, so you Lose.');
     }
 }
+
+//
+//that radio button code:
+// (this is for a radio button that creates a popup)
+//<script type="text/javascript">
+//function newWindow(){
+//var newWindow;
+//newWindow = window.open("http://www.google.com", "myWindow", "width=300,height=300");
+//newWindow.focus();
+//}
+//</script>
+//
+//<form id="myform">
+//<input type="radio" name="rb" value="1" /> 1<br />
+//<input type="radio" name="rb" value="2" /> 2<br />
+//<input type="radio" name="rb" value="3" onclick="javascript:newWindow()" /> 3<br />
+//</form>
