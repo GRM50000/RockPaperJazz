@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Comment Placeholder -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+    <title>Delete This</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section id="bonk">
+        <article class="centered">
+            <p id="blurb">if you like Rock-Paper-Scissors <br>and Music,<br> you'll love...</p>
+            <hgroup class="hgroup" id="hgroup">
+                <h1>Rock blues jazZ</h1>
+                <div id="h2">
+
+                    <h2 id="choose">Choose One:</h2>
+
+                    <!--
+                    <script type="text/javascript">
+                        function newWindow() {
+                            var newWindow;
+                            newWindow = window.open("http://www.google.com", "myWindow", "width=300,height=300");
+                            newWindow.focus();                        }
+                    </script>
+-->
+
+                    <form id="myform">
+                        <input type="radio" name="rb" id="rock" value="1" /> Rock<br />
+                        <input type="radio" name="rb" id="blues" value="2" />Blues<br />
+                        <input type="radio" name="rb" id="jazz" value="3" onclick="javascript:window.location.href = 'https://grm50000.github.io/RockPaperJazz/'" /> Jazz<br />
+                    </form>
+                </div>
+            </hgroup>
+            <button id="button" onClick="window.location.reload();">Play Again!</button>
+        </article>
+    </section>
+    <script src="scripts/ex8.js"></script>
+</body>
+
+</html>

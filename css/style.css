@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-image: url('https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png');
+    background-image: url('../images/rockpaperscissors.png');
     background-size: 200px;
 
 }
@@ -22,8 +22,9 @@ body {
 
 #bonk {
     position: relative;
+
     top: 3rem;
-    margin: 5vh 5vw;
+    margin: 2vh 2vw;
     border: 10px solid blue;
     background-color: #ddd;
     border-radius: 20px;
@@ -33,7 +34,7 @@ body {
 
 #blurb {
     padding: 1em;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -44,21 +45,25 @@ h1 {
     text-shadow: 1px 1px 1px black;
     font-variant: small-caps;
     background-color: green;
-    border: 10px solid black;
+    border: 10px solid blue;
     color: yellow;
     font-weight: 800;
     padding: 1rem;
     border-radius: 10px;
 }
 
+h1:hover {
+    background-color: red;
+    border-color: black;
+}
+
 h2 {
     display: inline-flex;
     background-color: yellow;
-
-}
-
-#h2 {
     padding: 1em;
+    margin: 1em;
+    margin-bottom: 0px;
+
 }
 
 button {
@@ -72,6 +77,11 @@ button {
     border: 10px blue solid;
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
+}
+
+button:hover {
+    background-color: red;
+    border-color: black;
 }
 
 .centered {
